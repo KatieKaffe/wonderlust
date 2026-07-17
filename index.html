@@ -273,7 +273,7 @@
     <footer>
         <section id="contact-us">
             <h2>Contact Us <span id="required">(*required)</span></h2>
-            
+            <form method="post" action="https://wp.zybooks.com/form-viewer.php">
                 <div>
                     <label for="firstName">First Name<span class="required" aria-hidden="true">*</span></label>
 			        <input id="firstName" name="firstName" type="text" autocomplete="given-name" required>	 
@@ -342,10 +342,10 @@
                         <option value="Flexible">Flexible</option>
                     </select>
                 </fieldset>
-
-                <input id="submit" type="submit" name="submit" value="Submit">
-            
+                <input id="submit" type="submit" name="submit" value="Submit" aria-label="Submit contact form">
+            </form>
         </section>
+
         <section id="legal">
             <h2>Legal</h2>
             <small>Copyright 2021 Wonderlust</small>
